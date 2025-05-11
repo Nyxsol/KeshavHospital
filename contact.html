@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshab Hospital</title>
+    <title>Contact Us Now</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -29,7 +29,9 @@
                 <nav class="navbar">
 
                     <div class="logo">
-                        <h1>Keshav Hospital</h1>
+                        <a href="index.html">
+                            <h1>Keshav Hospital</h1>
+                        </a>
                     </div>
                     <input type="checkbox" id="toggler">
                     <label for="toggler" class="burger">
@@ -47,7 +49,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="team.html">Our Team</a></li>
                         <li><a href="contact.html" class="btn-custom">Book An Appointment</a></li>
                     </ul>
 
@@ -59,8 +61,84 @@
 
         <!-- nav finish -->
     </div>
+    <!-- gallery -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-heading1 mb-0">
+                <h5 class="sub-heading1">Book An Appointment</h5>
+                <h2 class="main-heading1">We’re Here When You Need Us Most</h2>
+            </div>
+            <!-- form -->
+            <div class="form-box">
+                <div class="form-header">
+                    <h2>Have Questions or Need Help?</h2>
+                </div>
+                <form>
+                    <div class="form-grid">
 
+                        <div class="form-group">
+                            <label class="form-label" for="name">Full Name</label>
+                            <input class="form-input" type="text" id="name" name="name" required />
+                        </div>
 
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email Address</label>
+                            <input class="form-input" type="email" id="email" name="email" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Phone Number</label>
+                            <input class="form-input" type="tel" id="phone" name="phone" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="date">Preferred Date of Service</label>
+                            <input class="form-input" type="date" id="date" name="date" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="time">Preferred Time</label>
+                            <input class="form-input" type="time" id="time" name="time" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="department">Department / Service Needed</label>
+                            <select class="form-select" id="department" name="department" required>
+                                <option value="">-- Select Service --</option>
+                                <option value="general">General Medicine</option>
+                                <option value="pediatrics">Mental Health & Wellbeing</option>
+                                <option value="cardiology">Emergency Care</option>
+                                <option value="orthopedics">Maternity & Women's Health</option>
+                                <option value="radiology">Surgery & Procedures</option>
+                                <option value="surgery">Diagnostic Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="reason">Reason for Visit</label>
+                            <input class="form-input" type="text" id="reason" name="reason" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="insurance">Insurance Provider (if any)</label>
+                            <input class="form-input" type="text" id="insurance" name="insurance" />
+                        </div>
+
+                        <div class="form-group form-full">
+                            <label class="form-label" for="notes">Additional Notes</label>
+                            <textarea class="form-textarea" id="notes" name="notes"></textarea>
+                        </div>
+
+                        <div class="form-group form-full">
+                            <button class="form-button" type="submit">Submit Request</button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+    </section>
 
     <!-- footer -->
     <footer>
@@ -80,7 +158,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="team.html">Our Team</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
