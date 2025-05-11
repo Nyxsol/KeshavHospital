@@ -1,104 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .footer {
-  background-color: #222;
-  color: #fff;
-  padding: 40px 20px 20px;
-  font-family: Arial, sans-serif;
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.footer-section {
-  flex: 1 1 200px;
-}
-
-.footer-section h3 {
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 28px;
-  color: #1470F8;
-  position: relative;
-}
-.contactus-footer p {
- font-size: 16px;
- line-height: 26px;
- padding-bottom: 25px;
-}
-.footer-links{
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer-section h3::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  width: 50px; 
-  height: 2px;
-  background-color: #1470F8;
-}
-.footer-section .contactus-footer{
-    display: flex;
-    align-items: center;
-
-}
-.footer-icon{
-    width: 18px;
-    height: 18px;
-    margin-right: 12px;
-}
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 15px;
-}
-
-.footer-section ul li a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer-section ul li a:hover {
-  color: #fff;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
-  border-top: 1px solid #444;
-  padding-top: 15px;
-}
-
-    </style>
-</head>
-<body>
-    <footer class="footer">
-        <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshab Hospital</title>
+    <title>Our Picture</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -123,7 +29,9 @@
                 <nav class="navbar">
 
                     <div class="logo">
-                        <h1>Keshav Hospital</h1>
+                        <a href="index.html">
+                            <h1>Keshav Hospital</h1>
+                        </a>
                     </div>
                     <input type="checkbox" id="toggler">
                     <label for="toggler" class="burger">
@@ -141,7 +49,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="team.html">Our Team</a></li>
                         <li><a href="contact.html" class="btn-custom">Book An Appointment</a></li>
                     </ul>
 
@@ -153,8 +61,28 @@
 
         <!-- nav finish -->
     </div>
+    <!-- gallery -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-heading1 mb-0">
+                <h5 class="sub-heading1">Our Team</h5>
+                <h2 class="main-heading1">Advanced, Compassionate Healthcare<br> for Every Stage of Life</h2>
+            </div>
 
-
+            <!-- photo -->
+            <div class="row-gallery">
+                <div class="column-gallery"><img src="images/gallery1.jpg" alt="Gallery Image 1"></div>
+                <div class="column-gallery"><img src="images/gallery2.jpg" alt="Gallery Image 2"></div>
+                <div class="column-gallery"><img src="images/gallery3.jpg" alt="Gallery Image 3"></div>
+                <div class="column-gallery"><img src="images/gallery4.jpg" alt="Gallery Image 4"></div>
+                <div class="column-gallery"><img src="images/gallery5.jpg" alt="Gallery Image 5"></div>
+                <div class="column-gallery"><img src="images/gallery6.jpg" alt="Gallery Image 6"></div>
+                <div class="column-gallery"><img src="images/gallery7.jpg" alt="Gallery Image 7"></div>
+                <div class="column-gallery"><img src="images/gallery8.jpg" alt="Gallery Image 8"></div>
+                <div class="column-gallery"><img src="images/gallery9.jpg" alt="Gallery Image 9"></div>
+              </div>
+        </div>
+    </section>
 
     <!-- footer -->
     <footer>
@@ -174,7 +102,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="team.html">Our Team</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -213,8 +141,4 @@
     <script src="js/script.js"></script>
 </body>
 
-</html>
-      </footer>
-      
-</body>
 </html>
